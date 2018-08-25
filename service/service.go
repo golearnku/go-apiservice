@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"go-apiserver/model"
-	"go-apiserver/util"
+	"github.com/china-golang/go-apiservice/model"
+	"github.com/china-golang/go-apiservice/util"
 )
 
 func ListUser(username string, offset, limit int) ([]*model.UserInfo, uint64, error) {

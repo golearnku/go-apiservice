@@ -1,9 +1,9 @@
 package user
 
 import (
-	. "go-apiserver/handler"
-	"go-apiserver/pkg/errno"
-	"go-apiserver/service"
+	. "github.com/china-golang/go-apiservice/handler"
+	"github.com/china-golang/go-apiservice/pkg/errno"
+	"github.com/china-golang/go-apiservice/service"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"

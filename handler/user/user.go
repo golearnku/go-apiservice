@@ -1,7 +1,7 @@
 package user
 
 import (
-	"go-apiserver/model"
+	"github.com/china-golang/go-apiservice/model"
 )
 
 type CreateRequest struct {

@@ -1,11 +1,11 @@
 package user
 
 import (
-	. "go-apiserver/handler"
-	"go-apiserver/model"
-	"go-apiserver/pkg/auth"
-	"go-apiserver/pkg/errno"
-	"go-apiserver/pkg/token"
+	. "github.com/china-golang/go-apiservice/handler"
+	"github.com/china-golang/go-apiservice/model"
+	"github.com/china-golang/go-apiservice/pkg/auth"
+	"github.com/china-golang/go-apiservice/pkg/errno"
+	"github.com/china-golang/go-apiservice/pkg/token"
 
 	"github.com/gin-gonic/gin"
 )

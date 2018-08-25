@@ -3,7 +3,7 @@ package handler
 import (
 	"net/http"
 
-	"go-apiserver/pkg/errno"
+	"github.com/china-golang/go-apiservice/pkg/errno"
 
 	"github.com/gin-gonic/gin"
 )

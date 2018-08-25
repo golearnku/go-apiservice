@@ -1,10 +1,10 @@
 package user
 
 import (
-	. "go-apiserver/handler"
-	"go-apiserver/model"
-	"go-apiserver/pkg/errno"
-	"go-apiserver/util"
+	. "github.com/china-golang/go-apiservice/handler"
+	"github.com/china-golang/go-apiservice/model"
+	"github.com/china-golang/go-apiservice/pkg/errno"
+	"github.com/china-golang/go-apiservice/util"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"

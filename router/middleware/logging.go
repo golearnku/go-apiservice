@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"time"
 
-	"go-apiserver/handler"
-	"go-apiserver/pkg/errno"
+	"github.com/china-golang/go-apiservice/handler"
+	"github.com/china-golang/go-apiservice/pkg/errno"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"

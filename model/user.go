@@ -3,8 +3,8 @@ package model
 import (
 	"fmt"
 
-	"go-apiserver/pkg/auth"
-	"go-apiserver/pkg/constvar"
+	"github.com/china-golang/go-apiservice/pkg/auth"
+	"github.com/china-golang/go-apiservice/pkg/constvar"
 
 	validator "gopkg.in/go-playground/validator.v9"
 )

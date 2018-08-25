@@ -9,11 +9,11 @@ import (
 	"os"
 	"time"
 
-	"go-apiserver/config"
-	"go-apiserver/model"
-	v "go-apiserver/pkg/version"
-	"go-apiserver/router"
-	"go-apiserver/router/middleware"
+	"github.com/china-golang/go-apiservice/config"
+	"github.com/china-golang/go-apiservice/model"
+	v "github.com/china-golang/go-apiservice/pkg/version"
+	"github.com/china-golang/go-apiservice/router"
+	"github.com/china-golang/go-apiservice/router/middleware"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"
